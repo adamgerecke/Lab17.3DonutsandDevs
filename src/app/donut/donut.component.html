@@ -1,0 +1,6 @@
+<ng-container *ngFor=" let donuts of donutList?.results">
+    {{donuts.name}}
+     <a routerLink="/donutdetails/{{donuts.id}}" >Donut Stats</a> <br/> 
+</ng-container>
+
+<router-outlet></router-outlet>
